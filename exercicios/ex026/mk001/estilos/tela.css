@@ -20,10 +20,14 @@ menu ul {
     background-color: grey;
 }
 menu li {
+    background-color: blanchedalmond;
+    color: brown;
     display: inline-block;
     padding: 10px;
 }
 article {
     width: 600px;
-    padding-left: 50px;
+    display: block;
+    margin: auto;
+    text-align: justify;
 }

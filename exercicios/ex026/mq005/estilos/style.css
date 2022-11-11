@@ -53,9 +53,6 @@ main {
     padding: 10px;
     border-radius: 10px;
 }
-article {
-    
-}
 article > h2 {
     margin-bottom: 20px;
 }

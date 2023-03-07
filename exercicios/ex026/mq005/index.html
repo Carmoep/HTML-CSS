@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaq.css">
+    
 </head>
 <body onresize="swTam()">
     <header>
@@ -15,38 +16,52 @@
         <span id="burger" onclick="clickMenu()" class="material-symbols-outlined">
             menu
         </span>
-        <menu id="itens">
+        <menu id="opt"> <!-- tab-header -->
             <ul>
-                <li><a href="#">Opção 1</a></li>
-                <li><a href="#">Opção 2</a></li>
-                <li><a href="#">Opção 3</a></li>
-                <li><a href="#">Opção 4</a></li>
-                <li><a href="#">Opção 5</a></li>
+                <li><a class="op1">Opção 1</a></li> <!--fa fa-code-->
+                <li><a class="op2">Opção 2</a></li> <!--fa fa pencil-->
+                <li><a class="op3">Opção 3</a></li> <!--fa fa bar-->
+                <li><a class="op4">Opção 4</a></li> <!--fa fa envelope-->
+                <li><a class="op5">Opção 5</a></li> <!--NOVO-->
             </ul>
         </menu>
     </header>
-    <main>
-        <article>
-            <h2>Testando Media Queries</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.</p>
+    <main id="indicador"> <!--tab-indicator-->
+        <article class="body"> 
+            <div class="texto"> <!--active-->
+                <div>
+                    <h2>Título 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus facilis, laboriosam tempora, voluptatibus quia, recusandae enim asperiores unde sed cumque at consequuntur rem necessitatibus dicta suscipit ratione molestias fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellat enim consectetur libero necessitatibus aspernatur, accusantium animi consequatur alias. Perferendis, beatae earum fuga a recusandae in laborum aperiam voluptates unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi excepturi impedit quaew.
+                    </p>
+                </div>
+                <div>
+                    <h2>Título 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore, dolorem corporis tempora unde ducimus, placeat totam tenetur inventore fugit laborum voluptatibus quisquam necessitatibus aliquid nostrum nam hic velit consequuntur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, praesentium nemo error rem at accusantium debitis corrupti alias quae, quos sunt, eos unde facilis et nihil distinctio voluptatem reprehenderit enim! Lorem ipsum, dolor sit.
+                    </p>
+                </div>
+                <div>
+                    <h2>Título 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eos officiis earum beatae fugit temporibus consequatur, neque eligendi ullam magni repellendus consectetur repellat nesciunt esse incidunt itaque. Quis, harum cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vitae repellat animi deserunt explicabo nesciunt? Aperiam nobis minus aliquam, ad illum atque non odit error hic autem mollitia nam odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil.
+                    </p>
+                </div>
+                <div>
+                    <h2>Título 4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia aliquam architecto consequatur tempore nulla veritatis corporis perferendis aliquid soluta, ab nobis minus assumenda tenetur officiis autem fugit nostrum reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, expedita. Nobis a, tempora alias, culpa ad excepturi, adipisci quod eveniet nulla expedita placeat? Incidunt laudantium illo culpa commodi maiores voluptas? Lorem ipsum dolor sit.
+                    </p>
+                </div>
+                <div>
+                    <h2>Título 5</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, vel necessitatibus incidunt similique rerum provident quis ducimus recusandae cum laboriosam a beatae nam dicta accusamus praesentium, ullam et! Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro asperiores debitis, sit architecto voluptate expedita provident nulla eaque in doloribus? Nam ipsa ad provident recusandae excepturi laboriosam quo harum.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia hic inventore quo excepturi voluptatibus, ex cum aspernatur sint ullam voluptatem, quidem alias, pariatur officiis voluptate earum? Ducimus, alias? Harum, eligendi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, impedit temporibus sapiente velit ex non, harum delectus accusantium sint facilis officia odit quasi. Sapiente facilis cumque ratione quidem harum quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque qui repellat velit sequi, porro recusandae maxime veniam labore fuga deleniti accusamus perferendis accusantium iure mollitia, assumenda, est unde quo minima.
+                    </p>
+            </div>
+            </div>
         </article>
     </main>
-    <script>
-        function swTam() {
-            if (window.innerWidth >= 768) {
-                itens.style.display = 'block'
-            }
-        }
-        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-            }
-            else {
-                itens.style.display = 'block'
-            }
-            }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
